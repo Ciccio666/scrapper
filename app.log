@@ -1,0 +1,7 @@
+DEBUG:asyncio:Using selector: EpollSelector
+INFO:     Started server process [1343]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:5000 (Press CTRL+C to quit)
+INFO:     172.31.128.49:46226 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50006 - "GET / HTTP/1.1" 200 OK

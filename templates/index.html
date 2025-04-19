@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Scraper</title>
+    <link rel="stylesheet" href="https://cdn.replit.com/agent/bootstrap-agent-dark-theme.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="/static/css/custom.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="/">
+                <i class="bi bi-robot me-2"></i>
+                Web Scraper
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/settings">Settings</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="card bg-dark mb-4">
+                    <div class="card-header">
+                        <h4 class="mb-0"><i class="bi bi-globe me-2"></i>Web Scraper</h4>
+                    </div>
+                    <div class="card-body">
+                        <form id="scrapeForm">
+                            <div class="mb-3">
+                                <label for="url" class="form-label">URL to Scrape</label>
+                                <div class="input-group">
+                                    <span class="input-group-text"><i class="bi bi-link-45deg"></i></span>
+                                    <input type="text" class="form-control" id="url" placeholder="Enter website URL (e.g., https://example.com)" required>
+                                </div>
+                                <small class="form-text text-muted">Enter the full URL including http:// or https://</small>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="mb-3">
+                                        <label for="userAgent" class="form-label">User Agent</label>
+                                        <select class="form-select" id="userAgent">
+                                            <option value="chrome-windows">Chrome (Windows)</option>
+                                            <option value="chrome-mac">Chrome (Mac)</option>
+                                            <option value="firefox">Firefox</option>
+                                            <option value="safari">Safari</option>
+                                            <option value="mobile-android">Mobile (Android)</option>
+                                            <option value="mobile-iphone">Mobile (iPhone)</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="mb-3">
+                                        <label for="waitTime" class="form-label">Wait Time (seconds)</label>
+                                        <input type="number" class="form-control" id="waitTime" min="0" max="10" step="0.5" value="2">
+                                        <small class="form-text text-muted">Time to wait for dynamic content to load</small>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-check form-switch mb-3">
+                                        <input class="form-check-input" type="checkbox" id="headlessMode" checked>
+                                        <label class="form-check-label" for="headlessMode">Run in Headless Mode</label>
+                                        <div class="form-text text-muted">Runs browser in background (faster)</div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-check form-switch mb-3">
+                                        <input class="form-check-input" type="checkbox" id="disableImages" checked>
+                                        <label class="form-check-label" for="disableImages">Disable Images</label>
+                                        <div class="form-text text-muted">Speeds up page loading</div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Crawling Options -->
+                            <div class="card bg-dark mt-3 mb-3">
+                                <div class="card-header">
+                                    <div class="form-check form-switch">
+                                        <input class="form-check-input" type="checkbox" id="enableCrawling">
+                                        <label class="form-check-label" for="enableCrawling">
+                                            <strong>Enable Recursive Crawling</strong>
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="card-body crawl-options" style="display: none;">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="mb-3">
+                                                <label for="maxDepth" class="form-label">Maximum Depth</label>
+                                                <input type="number" class="form-control" id="maxDepth" min="1" max="5" value="1">
+                                                <small class="form-text text-muted">How many links to follow (1 = current page only)</small>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="mb-3">
+                                                <label for="maxPages" class="form-label">Maximum Pages</label>
+                                                <input type="number" class="form-control" id="maxPages" min="1" max="50" value="10">
+                                                <small class="form-text text-muted">Maximum number of pages to crawl</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="form-check form-switch mb-3">
+                                                <input class="form-check-input" type="checkbox" id="restrictToDomain" checked>
+                                                <label class="form-check-label" for="restrictToDomain">Restrict to Original Domain</label>
+                                                <div class="form-text text-muted">Only crawl pages from the same domain</div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-check form-switch mb-3">
+                                                <input class="form-check-input" type="checkbox" id="followExternalLinks">
+                                                <label class="form-check-label" for="followExternalLinks">Follow External Links</label>
+                                                <div class="form-text text-muted">Follow links to other domains</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-check form-switch mb-3">
+                                        <input class="form-check-input" type="checkbox" id="ignoreQueryStrings" checked>
+                                        <label class="form-check-label" for="ignoreQueryStrings">Ignore Query Strings</label>
+                                        <div class="form-text text-muted">Treat URLs the same regardless of query parameters</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="d-grid gap-2">
+                                <button type="submit" class="btn btn-primary" id="scrapeButton">
+                                    <i class="bi bi-search me-2"></i>Scrape Website
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <!-- Loading Indicator -->
+                <div id="loadingIndicator" class="text-center my-4 d-none">
+                    <div class="spinner-border text-primary" role="status">
+                        <span class="visually-hidden">Loading...</span>
+                    </div>
+                    <h5 class="mt-3">Scraping website...</h5>
+                    <p class="text-muted">This may take a few moments depending on the website's size and complexity.</p>
+                </div>
+
+                <!-- Results Container -->
+                <div id="resultsContainer" class="d-none">
+                    <div class="card bg-dark mb-4">
+                        <div class="card-header d-flex justify-content-between align-items-center">
+                            <h4 class="mb-0"><i class="bi bi-file-earmark-text me-2"></i>Scraping Results</h4>
+                            <button type="button" class="btn btn-sm btn-outline-secondary" id="copyResultsBtn">
+                                <i class="bi bi-clipboard me-1"></i>Copy
+                            </button>
+                        </div>
+                        <div class="card-body">
+                            <ul class="nav nav-tabs" id="resultTabs" role="tablist">
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link active" id="overview-tab" data-bs-toggle="tab" data-bs-target="#overview" type="button" role="tab" aria-controls="overview" aria-selected="true">Overview</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="content-tab" data-bs-toggle="tab" data-bs-target="#content" type="button" role="tab" aria-controls="content" aria-selected="false">Content</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="metadata-tab" data-bs-toggle="tab" data-bs-target="#metadata" type="button" role="tab" aria-controls="metadata" aria-selected="false">Metadata</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="raw-tab" data-bs-toggle="tab" data-bs-target="#raw" type="button" role="tab" aria-controls="raw" aria-selected="false">Raw JSON</button>
+                                </li>
+                            </ul>
+                            <div class="tab-content pt-3" id="resultTabsContent">
+                                <div class="tab-pane fade show active" id="overview" role="tabpanel" aria-labelledby="overview-tab">
+                                    <div class="mb-3">
+                                        <h5>Page Title</h5>
+                                        <p id="resultTitle" class="bg-dark p-2 rounded">-</p>
+                                    </div>
+                                    <div class="mb-3">
+                                        <h5>Description</h5>
+                                        <p id="resultDescription" class="bg-dark p-2 rounded">-</p>
+                                    </div>
+                                    <div class="mb-3">
+                                        <h5>URL</h5>
+                                        <p id="resultUrl" class="bg-dark p-2 rounded"><a href="#" target="_blank">-</a></p>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="card bg-dark">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Content Stats</h5>
+                                                    <ul class="list-group list-group-flush bg-dark">
+                                                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                                                            Content Length
+                                                            <span id="contentLength" class="badge bg-primary rounded-pill">-</span>
+                                                        </li>
+                                                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                                                            Links
+                                                            <span id="linksCount" class="badge bg-primary rounded-pill">-</span>
+                                                        </li>
+                                                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                                                            Images
+                                                            <span id="imagesCount" class="badge bg-primary rounded-pill">-</span>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="card bg-dark">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Scraping Stats</h5>
+                                                    <ul class="list-group list-group-flush bg-dark">
+                                                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                                                            User Agent
+                                                            <span id="userAgentUsed" class="badge bg-secondary rounded-pill">-</span>
+                                                        </li>
+                                                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                                                            Scrape Time
+                                                            <span id="scrapeTime" class="badge bg-secondary rounded-pill">-</span>
+                                                        </li>
+                                                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                                                            Redirected
+                                                            <span id="redirectStatus" class="badge rounded-pill">-</span>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="content" role="tabpanel" aria-labelledby="content-tab">
+                                    <div class="form-floating">
+                                        <textarea class="form-control" id="contentArea" style="height: 500px" readonly></textarea>
+                                        <label for="contentArea">Page Content</label>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="metadata" role="tabpanel" aria-labelledby="metadata-tab">
+                                    <div class="table-responsive">
+                                        <table class="table table-dark">
+                                            <thead>
+                                                <tr>
+                                                    <th>Property</th>
+                                                    <th>Value</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody id="metadataTable">
+                                                <!-- Metadata will be inserted here -->
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="raw" role="tabpanel" aria-labelledby="raw-tab">
+                                    <div class="form-floating">
+                                        <textarea class="form-control" id="rawJsonArea" style="height: 500px" readonly></textarea>
+                                        <label for="rawJsonArea">Raw JSON Response</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Error Container -->
+                <div id="errorContainer" class="d-none">
+                    <div class="alert alert-danger" role="alert">
+                        <h4 class="alert-heading"><i class="bi bi-exclamation-triangle-fill me-2"></i>Error</h4>
+                        <p id="errorMessage"></p>
+                        <hr>
+                        <p class="mb-0" id="errorDetails"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-dark text-white-50 text-center py-3 mt-5">
+        <div class="container">
+            <p class="mb-0">Web Scraper &copy; 2023 | Powered by FastAPI and Selenium</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/static/js/script.js"></script>
+</body>
+</html>

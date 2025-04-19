@@ -1,0 +1,12 @@
+{
+  "page_load_timeout": 30,
+  "dynamic_content_wait": 2.0,
+  "chatgpt_min_wait": 5.0,
+  "chatgpt_max_wait": 8.0,
+  "max_depth": 1,
+  "max_pages_per_domain": 10,
+  "restrict_to_domains": [],
+  "follow_external_links": false,
+  "ignore_query_strings": true,
+  "exclude_url_patterns": []
+}

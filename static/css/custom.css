@@ -1,0 +1,56 @@
+/* Custom styles for the web scraper application */
+
+/* Global adjustments */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    margin-top: auto;
+}
+
+/* Form enhancements */
+.input-group-text {
+    min-width: 40px;
+    justify-content: center;
+}
+
+/* Card and container styles */
+.card {
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1.5rem;
+}
+
+.card-header {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+/* Results area formatting */
+#contentArea, #rawJsonArea {
+    font-family: monospace;
+    resize: vertical;
+}
+
+#metadataTable tr td:first-child {
+    font-weight: bold;
+    width: 30%;
+}
+
+/* Loading spinner customization */
+.spinner-border {
+    width: 3rem;
+    height: 3rem;
+}
+
+/* Custom colors for specific elements */
+.badge.bg-success {
+    background-color: var(--bs-success) !important;
+}
+
+.badge.bg-danger {
+    background-color: var(--bs-danger) !important;
+}

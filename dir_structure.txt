@@ -1,0 +1,907 @@
+Folder PATH listing for volume Local Disk D
+Volume serial number is 8428-1814
+E:.
+³   .replit
+³   .replit.backup
+³   .replit.deployment
+³   api_test.py
+³   api_test_simple.py
+³   app.log
+³   app.pid
+³   app.py
+³   app_api_test.py
+³   app_simple.py
+³   crawler.py
+³   curl_command.sh
+³   dir_structure.txt
+³   example_api_calls.md
+³   generated-icon.png
+³   launcher.sh
+³   main.py
+³   openapi.json
+³   output.log
+³   pyproject.toml
+³   README.md
+³   replit.nix
+³   replit_wrapper.py
+³   run.py
+³   run.sh
+³   run_app.sh
+³   run_refactored.sh
+³   run_scraping_test.py
+³   run_server.py
+³   run_server.sh
+³   run_simple.sh
+³   run_tests.sh
+³   run_workflow.py
+³   server.log
+³   setup_chrome.py
+³   test_api.py
+³   test_api.sh
+³   test_new_endpoints.py
+³   test_proxy.py
+³   test_token_persistence.py
+³   test_web_scraper.py
+³   test_workflow.sh
+³   uv.lock
+³   web_scraper.py
+³   wsgi.py
+³   
+ÃÄÄÄ.config
+³   ÃÄÄÄchromium
+³   ³   ÀÄÄÄCrash Reports
+³   ³       ³   settings.dat
+³   ³       ³   
+³   ³       ÃÄÄÄattachments
+³   ³       ÃÄÄÄcompleted
+³   ³       ÃÄÄÄnew
+³   ³       ÀÄÄÄpending
+³   ÀÄÄÄglib-2.0
+³       ÀÄÄÄsettings
+ÃÄÄÄ.git
+³   ³   COMMIT_EDITMSG
+³   ³   config
+³   ³   description
+³   ³   HEAD
+³   ³   index
+³   ³   ORIG_HEAD
+³   ³   
+³   ÃÄÄÄbranches
+³   ÃÄÄÄhooks
+³   ³       applypatch-msg.sample
+³   ³       commit-msg.sample
+³   ³       fsmonitor-watchman.sample
+³   ³       post-update.sample
+³   ³       pre-applypatch.sample
+³   ³       pre-commit.sample
+³   ³       pre-merge-commit.sample
+³   ³       pre-push.sample
+³   ³       pre-rebase.sample
+³   ³       pre-receive.sample
+³   ³       prepare-commit-msg.sample
+³   ³       push-to-checkout.sample
+³   ³       sendemail-validate.sample
+³   ³       update.sample
+³   ³       
+³   ÃÄÄÄinfo
+³   ³       exclude
+³   ³       
+³   ÃÄÄÄlogs
+³   ³   ³   HEAD
+³   ³   ³   
+³   ³   ÀÄÄÄrefs
+³   ³       ÀÄÄÄheads
+³   ³               main
+³   ³               replit-agent
+³   ³               
+³   ÃÄÄÄobjects
+³   ³   ÃÄÄÄ00
+³   ³   ³       23a85a7ece698b4266e186c543ce00499a6f10
+³   ³   ³       b94aac7e8d42aff0f3ce6032fa3272adc3d8bb
+³   ³   ³       
+³   ³   ÃÄÄÄ01
+³   ³   ³       2b6e6a2fae69b4c09cb3b0431b6b88b1069a0f
+³   ³   ³       
+³   ³   ÃÄÄÄ02
+³   ³   ³       7a39dd1c0bd24d7459f9795d0734749cd8add2
+³   ³   ³       
+³   ³   ÃÄÄÄ03
+³   ³   ³       1b644f4313b4ae0dee9bedf866319ab7e5b4ef
+³   ³   ³       ee46de4ea7a08fb8a2119dc757a4c8ac86525e
+³   ³   ³       
+³   ³   ÃÄÄÄ04
+³   ³   ³       8dcfdb4c01f53bdbb5133ac6231437b98c839e
+³   ³   ³       
+³   ³   ÃÄÄÄ05
+³   ³   ³       05d892b152661639fcf97684a01aad250007e6
+³   ³   ³       807049a7df00c200743d4e0e98b2e1f3333ea5
+³   ³   ³       
+³   ³   ÃÄÄÄ06
+³   ³   ³       d60eac7cdedc92c07b208e8520ddfb70c083e6
+³   ³   ³       fcdd4e07fbc27b4ad23bf1bd045eb0a99d90cc
+³   ³   ³       
+³   ³   ÃÄÄÄ08
+³   ³   ³       0e003ba42f90de3bb27260446d805e76b3af93
+³   ³   ³       3985d9aa454e6647a93b0fa9074e56cda344fd
+³   ³   ³       
+³   ³   ÃÄÄÄ0a
+³   ³   ³       23f9e27c5ddaace356e6522468214d4ad4b2b9
+³   ³   ³       90da7797d34c5e9847bb1f6045d0997f92d89c
+³   ³   ³       
+³   ³   ÃÄÄÄ0b
+³   ³   ³       5580d173f8a46c66478ce16f4370557427c894
+³   ³   ³       a30a583754bc269f66a88c4a138e53f6393bd6
+³   ³   ³       
+³   ³   ÃÄÄÄ0c
+³   ³   ³       4c206500248114dba3d44bb5bfca591f562411
+³   ³   ³       533eeb935b2d10d1bb33b888ac2cc6229c2deb
+³   ³   ³       
+³   ³   ÃÄÄÄ0d
+³   ³   ³       273210a0661bbf7945e256be5b3c052b74f46b
+³   ³   ³       43fe7d9ba53aaeae7b059d02c1370c23978c31
+³   ³   ³       b6076e79cd05a1398f4156993df865fc3b9101
+³   ³   ³       
+³   ³   ÃÄÄÄ0e
+³   ³   ³       4e729da4f4c465b8c3ab41ed2b5f042b9eeb17
+³   ³   ³       7da69ff30fc8459a6ae9bcdf90ac3c84631b3c
+³   ³   ³       
+³   ³   ÃÄÄÄ0f
+³   ³   ³       002bb887d575ece66c36c6d1f8eee9d47bc2a3
+³   ³   ³       5ebc53f70a08155acc4537f567e1fe945f8596
+³   ³   ³       
+³   ³   ÃÄÄÄ11
+³   ³   ³       2a5683302f0b9b19598a768c3f8b8d9d856059
+³   ³   ³       
+³   ³   ÃÄÄÄ12
+³   ³   ³       76a266992ea38ad8258d07f2f6512640e50e3e
+³   ³   ³       
+³   ³   ÃÄÄÄ13
+³   ³   ³       5e366bccf11ab400da48d118ec6a881d37f3c0
+³   ³   ³       7794d7d08c7ae90272477e07751f6aba99547e
+³   ³   ³       
+³   ³   ÃÄÄÄ14
+³   ³   ³       d462900fdc6960f101c383ad154ff52e570e6f
+³   ³   ³       ead7f6c24c3a4ff5c7d72444212322f2879209
+³   ³   ³       
+³   ³   ÃÄÄÄ15
+³   ³   ³       324cd3708cf514c5892b4ff26197e0de05957f
+³   ³   ³       aa5685f41e21aea9937be4aafe5b7c2633d38e
+³   ³   ³       aba1b2e7f95529c0791f741013892b08168c6c
+³   ³   ³       c304d9fd4b88af98650ce5f5a4417972d4198a
+³   ³   ³       
+³   ³   ÃÄÄÄ16
+³   ³   ³       0f230d9b54e78847b9aab2dd3499a8c0fae001
+³   ³   ³       
+³   ³   ÃÄÄÄ17
+³   ³   ³       07975aaa0de2a29e77c906fa478cc531c5c4f2
+³   ³   ³       
+³   ³   ÃÄÄÄ18
+³   ³   ³       3c79c4fc773155a7a395b72ddf11727042f766
+³   ³   ³       
+³   ³   ÃÄÄÄ19
+³   ³   ³       052300d48c01e75b0d910e6f36cc29d5353930
+³   ³   ³       
+³   ³   ÃÄÄÄ1c
+³   ³   ³       10ba01fe2bbbc41e6262ab66f40c916ddc4c9e
+³   ³   ³       
+³   ³   ÃÄÄÄ1e
+³   ³   ³       8671f10a21dbd688b08f6bc8a8ec41f45eed1d
+³   ³   ³       fac0960ddfe42540a1950bd66b7732c58b12e8
+³   ³   ³       ff4cc91b141b4d19eddc3381a8fe54249aeef5
+³   ³   ³       
+³   ³   ÃÄÄÄ1f
+³   ³   ³       18f055d16418ccb9751bf3b39794308fa3273d
+³   ³   ³       5a342506d0bfbefe1965e4d81d8fbc34981e5a
+³   ³   ³       c58e76367b68a1213f3568c02ba9e079d6227b
+³   ³   ³       
+³   ³   ÃÄÄÄ20
+³   ³   ³       1b2a233d95c2e8f1777457123b69883df2ea85
+³   ³   ³       556afd6fdd98ed23c947fff5b12b076c4b2003
+³   ³   ³       
+³   ³   ÃÄÄÄ21
+³   ³   ³       0d6a71f0509e1f229a547acbe7dc3f6c41cfb0
+³   ³   ³       560487a2d02fbf8521aafc1e437c770e8a5114
+³   ³   ³       
+³   ³   ÃÄÄÄ22
+³   ³   ³       45f3bdfa1203daa0d094d7d125d8bfc3c23191
+³   ³   ³       e28b281be754ac0834a42ac27cadfa120ca49e
+³   ³   ³       
+³   ³   ÃÄÄÄ23
+³   ³   ³       a4a8836a2c5b52e6e3efe644c631fd02d531bb
+³   ³   ³       e251c6a8e7cea759ef11c43b70f168af03512b
+³   ³   ³       eef686ecdfe1e683c74053d90480fac8480106
+³   ³   ³       
+³   ³   ÃÄÄÄ24
+³   ³   ³       45e36ea3312aa7697cf3ecfe2e494c29f4c989
+³   ³   ³       
+³   ³   ÃÄÄÄ25
+³   ³   ³       6b50794b0d3f3bad92a95b429a8f328bfb06fe
+³   ³   ³       
+³   ³   ÃÄÄÄ26
+³   ³   ³       e3617387d7291e0eb45ac91abdbad07a31f884
+³   ³   ³       
+³   ³   ÃÄÄÄ28
+³   ³   ³       cb03e8c0cda4e2a67e06774611c736421146ad
+³   ³   ³       
+³   ³   ÃÄÄÄ2a
+³   ³   ³       1f73d2087a8d49febbffd9de769b927d1b76da
+³   ³   ³       547326c3739e2fc4355a0d2a1f6d8bddaf2cb3
+³   ³   ³       7355b5baac23d9db9304ad80b0f6c920b65d1d
+³   ³   ³       
+³   ³   ÃÄÄÄ2b
+³   ³   ³       37276025c908699e21ced9367c325afa951d6d
+³   ³   ³       a11fe5290415f2e8342531d6dc23ad107e387c
+³   ³   ³       c6cde528ffd00d35a4f9cf9d9532ed69a97c95
+³   ³   ³       d0e71b532309e9eaff77588ee5cf9c303794ab
+³   ³   ³       
+³   ³   ÃÄÄÄ2c
+³   ³   ³       dace9f7eef96b59de15640ffd04ae31f26e84a
+³   ³   ³       
+³   ³   ÃÄÄÄ2e
+³   ³   ³       ee3d20fdadbe38c83ede7059066e63296a583e
+³   ³   ³       
+³   ³   ÃÄÄÄ2f
+³   ³   ³       20be4cf739d122f5be90503a8b24eecb0b2130
+³   ³   ³       fd9c7b727670797eb227f1ec9ce29170b0fd62
+³   ³   ³       
+³   ³   ÃÄÄÄ30
+³   ³   ³       7ae764078e49f5e1a1c2ddfc780df9d1998a24
+³   ³   ³       f3e42ee53f952dc0422583d2bbeb290ebc4b4e
+³   ³   ³       
+³   ³   ÃÄÄÄ31
+³   ³   ³       c6a63f68ad74213260f479282ba85a8fb8fed0
+³   ³   ³       
+³   ³   ÃÄÄÄ32
+³   ³   ³       82392528409b21e9c54ddf87419b937bbed02d
+³   ³   ³       
+³   ³   ÃÄÄÄ33
+³   ³   ³       3994560759859053e9d5d2c3dfde61d038b3de
+³   ³   ³       5dc056f039c0b0d77dd37742815fff11ad2e12
+³   ³   ³       67f7d9ff9a3d3b0a08cce023c036427dce3803
+³   ³   ³       bd903cde9960660fac0cf2bf83e213537dd71d
+³   ³   ³       
+³   ³   ÃÄÄÄ35
+³   ³   ³       add4cac6b68741e0ae690242ca8ff6fefa6de7
+³   ³   ³       
+³   ³   ÃÄÄÄ36
+³   ³   ³       30582757aa82f9155ef1906db9432df49db0a9
+³   ³   ³       321edfbba97e3eb4ff5abf39c3f820bf3902b5
+³   ³   ³       42b2782a9c72dd8b8ede3f9633367e3023a392
+³   ³   ³       6a82508fd6c9d1e1a62b95cec90bcbb85d2c21
+³   ³   ³       839c49814cb019b979b402ccb367c1aa478c04
+³   ³   ³       b6e2a39a3cc16a6a36b3a57fd2a4f56d1682f8
+³   ³   ³       
+³   ³   ÃÄÄÄ37
+³   ³   ³       8acd40fcacc6bbf7209fb10ff1c6754bbcfafd
+³   ³   ³       
+³   ³   ÃÄÄÄ38
+³   ³   ³       4500335a476c3c126f9afa83c7bba4ef9fa99a
+³   ³   ³       f8540f375722dcdf589516c028fa4dd4c2e5a8
+³   ³   ³       ffb151adaf592a60e0a20102cdc053ac0c5f7d
+³   ³   ³       
+³   ³   ÃÄÄÄ3a
+³   ³   ³       019c5659ba8be31252ef7477a396cb4b6564d0
+³   ³   ³       
+³   ³   ÃÄÄÄ3b
+³   ³   ³       0c2285c451758ba9eb11f9a11c71b23dad9b4a
+³   ³   ³       
+³   ³   ÃÄÄÄ3c
+³   ³   ³       3ae43f00942f12b294dd0350814159a519725c
+³   ³   ³       
+³   ³   ÃÄÄÄ3d
+³   ³   ³       e8a044a6c505028e444f845f779f25dda7fe9b
+³   ³   ³       
+³   ³   ÃÄÄÄ3e
+³   ³   ³       a3bfd9e851ec58bceb9c5ab18bc9ebb97d37ad
+³   ³   ³       d9a725a9daa32a9ce60ee6824d348898964f73
+³   ³   ³       eb3839a856fdc37c24e2293f1d07b14d56a22f
+³   ³   ³       
+³   ³   ÃÄÄÄ3f
+³   ³   ³       1e065452488e1aa9337e32a74f68cc7169d146
+³   ³   ³       d2d7edf1ed481cb0a774838f16a01386074fcd
+³   ³   ³       d740e73ee12b269b3bcf7154c71ea80e90e383
+³   ³   ³       
+³   ³   ÃÄÄÄ40
+³   ³   ³       1033430e85012a59d5cf3a1c2f88caeba60912
+³   ³   ³       cf76f44b3d999c3cbec88d1ef74095e834a227
+³   ³   ³       
+³   ³   ÃÄÄÄ41
+³   ³   ³       04a6f044faa865c40ac3242c25b0772a40f4a8
+³   ³   ³       310e2f88aa20539e32a5a90f46dcfadf3e7aee
+³   ³   ³       
+³   ³   ÃÄÄÄ43
+³   ³   ³       d7eb8e3692dee24dd25e7854849fe4a3735e44
+³   ³   ³       d8ecffa4f27ce70b55ee0448f63830c598ec70
+³   ³   ³       
+³   ³   ÃÄÄÄ45
+³   ³   ³       2bf3e23b6b8321cd8a240720501ade45a9fd6e
+³   ³   ³       bd9794cdbd3e981e60c2a971ffcd355b5a8a58
+³   ³   ³       
+³   ³   ÃÄÄÄ46
+³   ³   ³       4cd54067809daab4c6dff0bd3a79c59ca19d17
+³   ³   ³       65e399aa7ba137ad8fb7dbe951aed15354c1fe
+³   ³   ³       bae60e7670d44d643b12f2d142a6b23bca27bf
+³   ³   ³       ca5e683469bf705422ef5039f72e85a7052dd9
+³   ³   ³       
+³   ³   ÃÄÄÄ49
+³   ³   ³       3fd8b3d986c9074b1eaed4132094177679335a
+³   ³   ³       5effa4c2136b33f56ebf215c6108c4bd850c82
+³   ³   ³       6ac13214b0a92b00823a4b2781ccfe23f1b0bb
+³   ³   ³       d049a8dc6db5630bf9ce9df9ca0a07cbc6142d
+³   ³   ³       
+³   ³   ÃÄÄÄ4a
+³   ³   ³       783d95c46fc98e377c78e27ea03a9cc67366db
+³   ³   ³       8b8e08ee3ead08f8373e7954c156dc981447f1
+³   ³   ³       d9ffec73119cb2e7b30dff9bed77a0ca406257
+³   ³   ³       
+³   ³   ÃÄÄÄ4b
+³   ³   ³       1690b51e4769745b59419b9898b5aeda29bb10
+³   ³   ³       e713f39285bb3c5057835328f54bdac9c501fc
+³   ³   ³       
+³   ³   ÃÄÄÄ4c
+³   ³   ³       6f76c72c7a6a7a703b81c7af52a98a3b266355
+³   ³   ³       e9bf1cd507b752b6403d76722b8ac7afb25c9e
+³   ³   ³       
+³   ³   ÃÄÄÄ4d
+³   ³   ³       1be01a3568c953500055e5b3465e1dddf11c25
+³   ³   ³       
+³   ³   ÃÄÄÄ4e
+³   ³   ³       696df86bb6e88a233921621450bb9b62ec64af
+³   ³   ³       cbdf7198be551557a5776a03b3a2ab48acd80f
+³   ³   ³       
+³   ³   ÃÄÄÄ4f
+³   ³   ³       4e471ca69d268263eee4e056e88f517f224635
+³   ³   ³       
+³   ³   ÃÄÄÄ50
+³   ³   ³       bbef7afce6ad80a4bcac594a2acf859b7db65c
+³   ³   ³       
+³   ³   ÃÄÄÄ51
+³   ³   ³       3a7b57ffb34553a98dbcd40998a5c141b8a48d
+³   ³   ³       ac0b79f6922c7f82a0c9dfdef290782d95efd7
+³   ³   ³       c94c5c7c068a8cbfeda9ee41b1aef20e00a190
+³   ³   ³       d8cd481287b1f7114b4ff5a73ad1f3729f07cc
+³   ³   ³       e6a81a0fed97b637adb27a2a1d432ea6ff072a
+³   ³   ³       ecd8a31a847b445fe1a42509ae81fec384a753
+³   ³   ³       
+³   ³   ÃÄÄÄ54
+³   ³   ³       05785fb592d51b6c5de1ee2c5a98530430d469
+³   ³   ³       e7a6a4887b763f14d2fdc04ddcb4e128cfd25d
+³   ³   ³       
+³   ³   ÃÄÄÄ55
+³   ³   ³       5e40ac5078e5d4fa0f0eb51ad2f7c37f50d70a
+³   ³   ³       
+³   ³   ÃÄÄÄ56
+³   ³   ³       1ea22258db77682ed2816664f5e98feee4f71b
+³   ³   ³       
+³   ³   ÃÄÄÄ57
+³   ³   ³       e06843c6b969187dddbbe420530aa95aa9e8e4
+³   ³   ³       f90a555dd5afec0359691b6f1525cc8da05d74
+³   ³   ³       
+³   ³   ÃÄÄÄ59
+³   ³   ³       178adab586e4b8edb87d4245a9effca21dd16c
+³   ³   ³       4b63a0641d9b4981da4586ca88873eea2afa2f
+³   ³   ³       698fe65789f59d7f0c8c08776b4808fb2ad32a
+³   ³   ³       b7d5089cbd3fd37a9cd105d15ba87a4d0125fa
+³   ³   ³       fcb1ccaedfac2494eaba8209b58603b766e7bf
+³   ³   ³       
+³   ³   ÃÄÄÄ5b
+³   ³   ³       1363d6c83d7d243dbd7846401523f30ab6cabf
+³   ³   ³       b536cba52931ccf55827c97636be92e6b50ed5
+³   ³   ³       c305b374159946c9e0c1972b03f91b7c6c5ad2
+³   ³   ³       ff7ac60ab8e7efa696c2a323c76c703f759f01
+³   ³   ³       
+³   ³   ÃÄÄÄ5d
+³   ³   ³       0f73174724c00a424d1ae07413053367737bfc
+³   ³   ³       
+³   ³   ÃÄÄÄ5f
+³   ³   ³       0d5d22afc8448c4bd0d12d7f616d74f4d918fe
+³   ³   ³       cb8637987e8c65ef62237db1a62e9673970d59
+³   ³   ³       
+³   ³   ÃÄÄÄ61
+³   ³   ³       31bb4a06761c36c4aed2c02ba6c6f449bf48ab
+³   ³   ³       
+³   ³   ÃÄÄÄ62
+³   ³   ³       4943b341cf160cc0531306372b287452a2ffad
+³   ³   ³       9a96799d4a13198fdfd5a7d9cea3d04c997f20
+³   ³   ³       baafaf6d362d2aa8232e133289d68ddb5ca28d
+³   ³   ³       fe9e0ba2ce88f53c1c7ac3203355aad673cf52
+³   ³   ³       
+³   ³   ÃÄÄÄ64
+³   ³   ³       51da6dc515702c73db84918ea8cedeaf9297dc
+³   ³   ³       
+³   ³   ÃÄÄÄ66
+³   ³   ³       54f87fbfdea2e02d9d6255cc7c0d1756af6aeb
+³   ³   ³       558e023b620efefe1a9b0b356ef8121ad38f60
+³   ³   ³       
+³   ³   ÃÄÄÄ67
+³   ³   ³       de8ee4fc341f714de633e1de8f6dd53ee7f807
+³   ³   ³       
+³   ³   ÃÄÄÄ68
+³   ³   ³       d1479932c5767bbd8d3a930047dacc91bfa54a
+³   ³   ³       
+³   ³   ÃÄÄÄ69
+³   ³   ³       73d41960c21976051a9ae6b22db8c1a13a2b79
+³   ³   ³       e4a0bfe08f8ab44bd9731788e5fc1dd073596a
+³   ³   ³       
+³   ³   ÃÄÄÄ6a
+³   ³   ³       2aecc18ac7fbda1677fbd0beed17489318341d
+³   ³   ³       5a3580a34fdb96ba7ef27b2e9aa5178139f560
+³   ³   ³       94fce043b314c3cfdf02f37f6d1c58faa4e9b7
+³   ³   ³       
+³   ³   ÃÄÄÄ6b
+³   ³   ³       57312ab3d87ce16935b780c632391544b9399f
+³   ³   ³       6780c2a2908172e8138d126d79ae6d94dbc7d0
+³   ³   ³       9bd1dd7d9e60220d211c13a4f3a178467a8a0a
+³   ³   ³       
+³   ³   ÃÄÄÄ6c
+³   ³   ³       eb1c0f4959b1527cfeb5414e823bc53fe66735
+³   ³   ³       
+³   ³   ÃÄÄÄ6e
+³   ³   ³       38ab291c285304d58236ba58f3ec6685c9512d
+³   ³   ³       4ed93fd565665c4b37475793af16c34453e9e6
+³   ³   ³       
+³   ³   ÃÄÄÄ6f
+³   ³   ³       e5b23dfe4590d6d47b56e755d6b9c20193e841
+³   ³   ³       f7a25b9940d97ffa98879b226bd5683162dae9
+³   ³   ³       
+³   ³   ÃÄÄÄ70
+³   ³   ³       9b8383b63ca4ad980fbae540aa5a3fad6530db
+³   ³   ³       be400dcc254d3907ecde56e1a234e418a87787
+³   ³   ³       
+³   ³   ÃÄÄÄ71
+³   ³   ³       24b8ced1227f044b45f0b7a77dd7378b285ab2
+³   ³   ³       5a3100a9422253e485deda2bca6262d3df8fa2
+³   ³   ³       e6cdeacd4053195e4019bd2051faa624734dad
+³   ³   ³       
+³   ³   ÃÄÄÄ73
+³   ³   ³       36f05d51d6d7c33f598359cfc416e1b9c59537
+³   ³   ³       edf224ddea6e33138fed6e1f832d8dcdccb241
+³   ³   ³       
+³   ³   ÃÄÄÄ74
+³   ³   ³       39789e09363b11b786a9b8a4924b0f4efbc71d
+³   ³   ³       54d0e683b3b73d0cbcbf38498f15bd19f916f6
+³   ³   ³       a317b968557b2de8b19f0c8f354eac4fad5c63
+³   ³   ³       
+³   ³   ÃÄÄÄ75
+³   ³   ³       1b1f0be12d561543d0470677d59d7591cb13c3
+³   ³   ³       
+³   ³   ÃÄÄÄ76
+³   ³   ³       07ef70ab1d7e8850e8e64d980eb3bd15bc96ab
+³   ³   ³       7b27ecdf502dfdee1acb5c1cc368cab881b10e
+³   ³   ³       c6a9c1fd5d6c9b3971445a6c0d776ef393343d
+³   ³   ³       ed45df5e6572865a5c1bb4c4a5590e14672519
+³   ³   ³       
+³   ³   ÃÄÄÄ77
+³   ³   ³       4ebf13678f44c038080a0651be819b5a8e9a16
+³   ³   ³       ef69caa5de75c97ae574716d9563f4b77e56e5
+³   ³   ³       ffa2ee4925cf0685f6ab6d940bc2c3e3ec05cd
+³   ³   ³       
+³   ³   ÃÄÄÄ7a
+³   ³   ³       e3e01c75d2f1535078f3b4772b2228f091bb79
+³   ³   ³       
+³   ³   ÃÄÄÄ7d
+³   ³   ³       644ff79fe9eeb0f37cd1cbd1840d733c33034f
+³   ³   ³       
+³   ³   ÃÄÄÄ7e
+³   ³   ³       31f06a604e52602469baa87d6fafc09e4cafd3
+³   ³   ³       de2df5136abd46e5a988d21153470f7a1bb3e4
+³   ³   ³       
+³   ³   ÃÄÄÄ7f
+³   ³   ³       2507789a4ab059157e17d1f11e859317e6859f
+³   ³   ³       
+³   ³   ÃÄÄÄ80
+³   ³   ³       c31183cece73b7a237d3c0cc19ab708ef56377
+³   ³   ³       
+³   ³   ÃÄÄÄ81
+³   ³   ³       2ba233d743461848060756a450bc5bcc645758
+³   ³   ³       
+³   ³   ÃÄÄÄ82
+³   ³   ³       a3fe1a9d8e27f930af27ffe49beb02261b5aca
+³   ³   ³       
+³   ³   ÃÄÄÄ83
+³   ³   ³       018cac2a686bf1c1ec67adce2ea23cdf39cf17
+³   ³   ³       7192d9b6321b7425dde10b657c583e45335c27
+³   ³   ³       792990b8b6b231af27e8be29f0081d2ae6b66f
+³   ³   ³       
+³   ³   ÃÄÄÄ86
+³   ³   ³       909707922f909aebf0c81fac8418a6253d6025
+³   ³   ³       cb5ae8319a4212ec32901420686e8ce7d25621
+³   ³   ³       
+³   ³   ÃÄÄÄ87
+³   ³   ³       87404dc6d8d2ad36eeffd57660efc35945cecd
+³   ³   ³       bc243506472e83b2d2a5c82ae79ea120787749
+³   ³   ³       
+³   ³   ÃÄÄÄ88
+³   ³   ³       cce78ed02b24bd0795ac44dda7f5d4e5b1a762
+³   ³   ³       
+³   ³   ÃÄÄÄ89
+³   ³   ³       a021307847bf220602adce7ef5d2fe7e8aeecd
+³   ³   ³       
+³   ³   ÃÄÄÄ8b
+³   ³   ³       38e290813f9c8478498d0748d708b396b87437
+³   ³   ³       da51817c923e11d761b8fc46065a58b04f935d
+³   ³   ³       
+³   ³   ÃÄÄÄ8c
+³   ³   ³       465e1644d80cc4157b848d2c1b80711bb89055
+³   ³   ³       
+³   ³   ÃÄÄÄ8d
+³   ³   ³       ab9c854394eaf2b7454073700a585053a7675d
+³   ³   ³       
+³   ³   ÃÄÄÄ8e
+³   ³   ³       40e5b0a3e4ed365477a00359f7088a37755ef0
+³   ³   ³       e3565e70e0367f71ee6df6b2fb9c350cab577e
+³   ³   ³       
+³   ³   ÃÄÄÄ8f
+³   ³   ³       9504d0fea275d9adaf6b642465697cb4936352
+³   ³   ³       df09fa4a20d56cef31de74a34c821968058c39
+³   ³   ³       
+³   ³   ÃÄÄÄ90
+³   ³   ³       18ea1bae53f79e8dcbecb4a6e746b53d184398
+³   ³   ³       57f05999736d86461c1123d88847f43a834ab8
+³   ³   ³       
+³   ³   ÃÄÄÄ91
+³   ³   ³       4288d790ee7173ce752fcad3d476b8fbade616
+³   ³   ³       
+³   ³   ÃÄÄÄ93
+³   ³   ³       80143c84c52d5061318ec83af52800c9cd494d
+³   ³   ³       
+³   ³   ÃÄÄÄ94
+³   ³   ³       8d5b71dfebba8d0dfe07455271ce4d31b75c84
+³   ³   ³       c2cbf38eb98305b70d72779e460c6bedbb1e58
+³   ³   ³       
+³   ³   ÃÄÄÄ99
+³   ³   ³       000f7507ca6410eeb481157ff9115c070e6898
+³   ³   ³       36f238c545bb71bc5cdf7dab45a8daf5e51726
+³   ³   ³       83771cae10d7eb818cf7de9ad47733fa4cb3ad
+³   ³   ³       e02145e085ca00bf28e51def89c3ef9656df25
+³   ³   ³       
+³   ³   ÃÄÄÄ9b
+³   ³   ³       0a5cd0ff2731a7e1fe6857b996ed021c1d87fe
+³   ³   ³       1f6794fc6d4204410402b42bd94fa4b7c896b1
+³   ³   ³       
+³   ³   ÃÄÄÄ9d
+³   ³   ³       1dcfdaf1a6857c5f83dc27019c7600e1ffaff8
+³   ³   ³       6ec5d4a87fc0753f69aa74352b46554ecfb35f
+³   ³   ³       7d987ad221eacca161bd8cbe165fec1cad0fe9
+³   ³   ³       eff19e37f54fc0bcc52155e43bc141054b0a2c
+³   ³   ³       
+³   ³   ÃÄÄÄ9e
+³   ³   ³       2ebcd404b1dc7ce1aaef9d4f7a96b7790466a9
+³   ³   ³       a40d27f7aca1dd3d3d3eaf4a89eced55e030b0
+³   ³   ³       fb8bf172406126e7e381257b1e7da93390c2ef
+³   ³   ³       
+³   ³   ÃÄÄÄa2
+³   ³   ³       f652a3f08e4c3f83e7d0ea8aea060f581b5eeb
+³   ³   ³       
+³   ³   ÃÄÄÄa4
+³   ³   ³       839ae5c8e819909fda94fa4ea4bf84e3824c08
+³   ³   ³       fe4964935ce1ab177e2706d63683a3f900a70e
+³   ³   ³       
+³   ³   ÃÄÄÄa5
+³   ³   ³       9de16216c4dd6c1a05ca7e09582b40ae35a8aa
+³   ³   ³       
+³   ³   ÃÄÄÄa6
+³   ³   ³       ca469f2772c287769d5a3dd0b713b3bc55d26d
+³   ³   ³       
+³   ³   ÃÄÄÄa7
+³   ³   ³       ba31c2d49e49f9daa7e9791233128a350b2cb6
+³   ³   ³       
+³   ³   ÃÄÄÄa8
+³   ³   ³       9f0e15b3d9acb26ba664edb4f3db9e90b0c998
+³   ³   ³       
+³   ³   ÃÄÄÄa9
+³   ³   ³       5d92c037d5248226898314a79f704e0f69853a
+³   ³   ³       9a1fc57607f8bf73d2b9bfe27fa5f5c39c93eb
+³   ³   ³       
+³   ³   ÃÄÄÄaa
+³   ³   ³       22701267b9eef56d3dc34795a4b0a76789fab6
+³   ³   ³       
+³   ³   ÃÄÄÄac
+³   ³   ³       2e5ecf6593b79b84c5237e6adcc9805f37411d
+³   ³   ³       347bdb4a43ae3ba99ebcb0c494ff8f0cf576fe
+³   ³   ³       796534572533ed5cf96588a2f0a739daf884d5
+³   ³   ³       
+³   ³   ÃÄÄÄae
+³   ³   ³       e55d8c35fdd7e3dc665d0cfad6802010f297a3
+³   ³   ³       
+³   ³   ÃÄÄÄaf
+³   ³   ³       71918713db55fb6a7241ce91daad378fae6046
+³   ³   ³       855364cdeef22d1bc561201f2fedc4eaf1a952
+³   ³   ³       a1369e122a826a6194cfe96b0e7b62f563f0b5
+³   ³   ³       bdc9a86c08d29cd33832270b768b7c79a445f0
+³   ³   ³       
+³   ³   ÃÄÄÄb0
+³   ³   ³       83d9c6e0356c122992542818a55c1d4929250a
+³   ³   ³       
+³   ³   ÃÄÄÄb1
+³   ³   ³       a6948af82d343608dedc9938a71304e2d6c941
+³   ³   ³       
+³   ³   ÃÄÄÄb2
+³   ³   ³       4004a3060f6d4d1da8726229b9ef538b89fd9b
+³   ³   ³       
+³   ³   ÃÄÄÄb5
+³   ³   ³       2ad44e7a18f9b472977d2f86b618a09fb0cef9
+³   ³   ³       9c8ade209178823453bd70c2fd7474e70aadaf
+³   ³   ³       a175a61f7183fe00be7f6e5ea31270bdb0166f
+³   ³   ³       
+³   ³   ÃÄÄÄb6
+³   ³   ³       2b9390bb6e129551ff1ea5b808a3102d0eda54
+³   ³   ³       c4a42e3dea172c1aa38b0bd2c6a560e3c1a406
+³   ³   ³       
+³   ³   ÃÄÄÄb7
+³   ³   ³       233d60fe75db46e88769993e8e08d4075ddcaa
+³   ³   ³       4a4489df293a9edeeb42ed853be9984750f541
+³   ³   ³       f3895506f6454f64be49eeffa2530388e5ed99
+³   ³   ³       
+³   ³   ÃÄÄÄb8
+³   ³   ³       94bc8839f02296d2f9dcd2edcfb855eae8c4c9
+³   ³   ³       
+³   ³   ÃÄÄÄb9
+³   ³   ³       0632a8c690b040fa9f866e198ceed7a94c0277
+³   ³   ³       
+³   ³   ÃÄÄÄba
+³   ³   ³       322082cdc77e55f7890fa7a15f19e8c38b5b16
+³   ³   ³       b8f5dbcaaab01a714e1362922179aad2389efd
+³   ³   ³       e43e1d6936a4c90e43ea6f52ec736e2543245d
+³   ³   ³       fbd48636c1f0324f5a185d1397368c90d9c53c
+³   ³   ³       
+³   ³   ÃÄÄÄbb
+³   ³   ³       662f1d0a4fd92bc51414cb42ebfccbd31a456f
+³   ³   ³       b99fb90afac609fb72e3b91ba941c64460f397
+³   ³   ³       
+³   ³   ÃÄÄÄbe
+³   ³   ³       19d84a50e2992c51a340843772f9621175d9ca
+³   ³   ³       670c640356828cca0fabc45d60c6847fdd77f7
+³   ³   ³       c2b085ee37fd1456ceaedb7848636886ac7b13
+³   ³   ³       
+³   ³   ÃÄÄÄbf
+³   ³   ³       4abc1358cd3e62bb560e16cfcf70f7b19381cd
+³   ³   ³       
+³   ³   ÃÄÄÄc0
+³   ³   ³       d52f3f26880ae313fa8c4627047fa2f4525b4a
+³   ³   ³       fe54abe4f045bcf861f36bfc72b0d9337106b8
+³   ³   ³       
+³   ³   ÃÄÄÄc2
+³   ³   ³       5a9c872a751d5f36effe8fdb4553a424222cb5
+³   ³   ³       66e3e836df322e6eaa91fac4b568cbc904a7fb
+³   ³   ³       9564a93c1679bdc5102e082d550a45903c5dc1
+³   ³   ³       ae3089dda468a7ee5a86ca6b44fd5f1df8e210
+³   ³   ³       b3e83af23e1b2bf382a1c7bb9ec2786044139f
+³   ³   ³       c2bc13ff4426bff02cdf6c65c6d813425a5fe1
+³   ³   ³       
+³   ³   ÃÄÄÄc3
+³   ³   ³       379543f096bba1b99f57df68c9e39084aa027a
+³   ³   ³       70fdb79cb8b21831f44ca4c153bd91cf698526
+³   ³   ³       fb333b88b62433d3c62efc8b2585a4cb7c0307
+³   ³   ³       
+³   ³   ÃÄÄÄc8
+³   ³   ³       f120fbce535965dff2df0cd59a44677a120f0d
+³   ³   ³       
+³   ³   ÃÄÄÄca
+³   ³   ³       6111aa501ae94d5fed658c44999f59a2aaa1ef
+³   ³   ³       6555b09ccc0bd18ac386a82c99961b64aea629
+³   ³   ³       
+³   ³   ÃÄÄÄcb
+³   ³   ³       419ac1488ae4f896e038c1bd8023730bef1120
+³   ³   ³       
+³   ³   ÃÄÄÄcc
+³   ³   ³       9be1ad44ea28c56cde215e8bf9889aaefc385b
+³   ³   ³       
+³   ³   ÃÄÄÄcd
+³   ³   ³       0975055e3b9bcb43b10e877a1b99d53ec52231
+³   ³   ³       ebdc193f16bf5faa3b362f26904e7f3a09e7cb
+³   ³   ³       
+³   ³   ÃÄÄÄce
+³   ³   ³       4c341649086870e4f2d89cb3736e348f3e0583
+³   ³   ³       730f89fb448d2b039806567471516fc72e2e94
+³   ³   ³       
+³   ³   ÃÄÄÄcf
+³   ³   ³       dece28125b973d5a05191a95320dcba9c1473b
+³   ³   ³       
+³   ³   ÃÄÄÄd0
+³   ³   ³       541aa88b13a01f2ee97b9764bb448d34fc12fa
+³   ³   ³       662846cd21fc513e3e8de9a5a7973d94538b5d
+³   ³   ³       f113b58b13753ebabd220905826b686df421a1
+³   ³   ³       
+³   ³   ÃÄÄÄd1
+³   ³   ³       32f835011fa8db975a9072041c6e3e15f7244d
+³   ³   ³       4f10f3bb8fa83e8deec196a21862a1ab70f6b6
+³   ³   ³       
+³   ³   ÃÄÄÄd2
+³   ³   ³       7f92921b16b883a39b1a59b97d451d028c3bb0
+³   ³   ³       e07e9eb27178d0a22de729bef51edbb4363072
+³   ³   ³       
+³   ³   ÃÄÄÄd4
+³   ³   ³       9ee0e2b98f6b905b35996854705ad5e4672017
+³   ³   ³       c040d787e5d4fc8123151bb7407f288c276a45
+³   ³   ³       
+³   ³   ÃÄÄÄd5
+³   ³   ³       2ca951b1fcbd28f8dc1cd2f81473769da7a430
+³   ³   ³       
+³   ³   ÃÄÄÄd6
+³   ³   ³       891cdd6a38809b8aa11a3e546ed92c4a09f863
+³   ³   ³       
+³   ³   ÃÄÄÄd7
+³   ³   ³       0558fdbce8dfcc6c6fb4bc782ec43f0a6f5f00
+³   ³   ³       0c5c54683c47abcd1f5c35cebdd69a6129831f
+³   ³   ³       
+³   ³   ÃÄÄÄd8
+³   ³   ³       47300ca84b5ee719317ce3705d35ff9f24fbf1
+³   ³   ³       
+³   ³   ÃÄÄÄd9
+³   ³   ³       37050efca6823ad7138eeb624ef6250a6dca91
+³   ³   ³       d87ee50e95051cb7423193789a2999f8cc5106
+³   ³   ³       
+³   ³   ÃÄÄÄdb
+³   ³   ³       31ab225854d89d638231b0bef3e24a5c0c779a
+³   ³   ³       5a43449eaf9dce527a5a70f00ea10116e0bc8b
+³   ³   ³       916a853f14f220aa01c27be220a6dbed6f7d42
+³   ³   ³       f6bffa185874a90bf75c1b29f9fe2b9343d60a
+³   ³   ³       
+³   ³   ÃÄÄÄdc
+³   ³   ³       81c50ca0d49d686bdd3c4e6652407951d38c33
+³   ³   ³       a81fe4957849b69303ddeb4c6f6d2fadd4f2da
+³   ³   ³       
+³   ³   ÃÄÄÄdd
+³   ³   ³       164e01786fab99bb37ddedaee67d9d5cb0a5b6
+³   ³   ³       4eb64211b4d83837ada4b350a5b6cc53d99f4b
+³   ³   ³       8a9dd5a25139bbb99e1ee7ecba8aa80f7e93ca
+³   ³   ³       b0d3d2c81a06cc087639417a13c1f08a6d4f64
+³   ³   ³       b4f3ad62f142a0b22fe0b760455f849cef33ea
+³   ³   ³       
+³   ³   ÃÄÄÄde
+³   ³   ³       3e7a6d8a366c5bde7edbe9e65942dda4f84fd5
+³   ³   ³       bf1c8aa48efd64aa9e8192bee0e451d1a2e8c8
+³   ³   ³       
+³   ³   ÃÄÄÄdf
+³   ³   ³       0fb0896907b3e6f90d54bc4322d6ce5337ae84
+³   ³   ³       7432131384b7f9dfef72c06f7013c2b4d1a3b3
+³   ³   ³       a14ef465f40861a4a7e101efcc0b95da932ebb
+³   ³   ³       a6f39e2ca549da1d1eca0c342e4097bafd251f
+³   ³   ³       bd145ecc00b3df641a81ffdd597049ca88ecdc
+³   ³   ³       
+³   ³   ÃÄÄÄe0
+³   ³   ³       0306a971ce9443856e28dcef7ac49c94031f4f
+³   ³   ³       30af3bf077e5e2a18498e704d22c4766773459
+³   ³   ³       464bac4009d7e8f4e34c22ae35e6632d7da0ec
+³   ³   ³       
+³   ³   ÃÄÄÄe1
+³   ³   ³       c1863282869bc0862e88bcac569fc477f774d7
+³   ³   ³       fe58126fb2b02fe400517c3dbeacd87dc13142
+³   ³   ³       
+³   ³   ÃÄÄÄe3
+³   ³   ³       81d568cd336ed797198836ffd71fd6599a0be4
+³   ³   ³       ca5347419ad7a681ad899be6e20192257e6f5f
+³   ³   ³       
+³   ³   ÃÄÄÄe6
+³   ³   ³       9de29bb2d1d6434b8b29ae775ad8c2e48c5391
+³   ³   ³       f2eb7995fa7ec79e1c0b13358a9487149bb669
+³   ³   ³       
+³   ³   ÃÄÄÄe7
+³   ³   ³       f17f8fff2e21339eaa2f231b24c6b5ac367b73
+³   ³   ³       
+³   ³   ÃÄÄÄe8
+³   ³   ³       5194adc8a55372e6fe5a3f98d3cb513566bc01
+³   ³   ³       
+³   ³   ÃÄÄÄeb
+³   ³   ³       cf2aec88f60d4c47caab3a0e977ce3c9a6c6b6
+³   ³   ³       
+³   ³   ÃÄÄÄec
+³   ³   ³       84f5659ce90223375e00a6a5ac99e839763b5e
+³   ³   ³       e1158fb543435fc4c398f7818ad2b7af67c504
+³   ³   ³       
+³   ³   ÃÄÄÄee
+³   ³   ³       06b75239d26f8f147052ae491e2eee4a5f5702
+³   ³   ³       5201d395968237bfd5cfc5815f7dc292c2fb30
+³   ³   ³       52bdbbc475e2e1695a3ddc30614f9d44b6cd12
+³   ³   ³       
+³   ³   ÃÄÄÄf0
+³   ³   ³       a9ec7b9a96e1765a88e580b74e58a61d17870f
+³   ³   ³       dd577c40753aaba39467b11d8e132fb2fc596a
+³   ³   ³       
+³   ³   ÃÄÄÄf1
+³   ³   ³       2bccd193a9a62947a086f3e73d28a202fa3563
+³   ³   ³       bd2f16e24f9543c3a61f24d6b0bd8076478849
+³   ³   ³       
+³   ³   ÃÄÄÄf2
+³   ³   ³       73917aed94aa7b55389a276e2a94901ffe6f7c
+³   ³   ³       83f41efafa91f9bf95385060b2d9426bf7739d
+³   ³   ³       857552e3800830e78245157d15b89306ec42d4
+³   ³   ³       
+³   ³   ÃÄÄÄf3
+³   ³   ³       8d8f3d8970fece58a184478967af98ab99c96a
+³   ³   ³       
+³   ³   ÃÄÄÄf4
+³   ³   ³       18214a23bd96e3f46fee8a46b018bd0b0ddf76
+³   ³   ³       
+³   ³   ÃÄÄÄf5
+³   ³   ³       ecfd6cb0a1f7e94cca5245609b668d9dd55840
+³   ³   ³       
+³   ³   ÃÄÄÄf6
+³   ³   ³       092dc202722883de614cbc336e8c275dffbdbf
+³   ³   ³       bb779b6f5b93fb34e017a4d46f8e5531e198ac
+³   ³   ³       
+³   ³   ÃÄÄÄf8
+³   ³   ³       670f453e905b3da9c71914aa97c8600990b30b
+³   ³   ³       6d374d5c8a5ee7c7518cdc7ba432bbd649f9c3
+³   ³   ³       8449ef290a202ab5119129adc780c181a63a8e
+³   ³   ³       
+³   ³   ÃÄÄÄf9
+³   ³   ³       b7772ce573bc491f15202fd09e6a387d8c2260
+³   ³   ³       b9ebddc3badb9e4a40df3a029763b8e246cb1c
+³   ³   ³       
+³   ³   ÃÄÄÄfa
+³   ³   ³       1e47371f4a9b234f185c8768e0116d3c496c6e
+³   ³   ³       
+³   ³   ÃÄÄÄfd
+³   ³   ³       2162dfebf8197493ae4f8a8ad45fb2e0267803
+³   ³   ³       d772c3b62ed096df857cfb369509b7dec30a1c
+³   ³   ³       
+³   ³   ÃÄÄÄff
+³   ³   ³       32f7b1931b213af48a17fb45995d3c33a8a347
+³   ³   ³       733f734668a4d5ee9b244becce88cbc342c691
+³   ³   ³       
+³   ³   ÃÄÄÄinfo
+³   ³   ÀÄÄÄpack
+³   ÀÄÄÄrefs
+³       ÃÄÄÄheads
+³       ³       main
+³       ³       replit-agent
+³       ³       
+³       ÃÄÄÄreplit
+³       ³       agent-ledger
+³       ³       
+³       ÀÄÄÄtags
+ÃÄÄÄapp
+³   ³   main.py
+³   ³   __init__.py
+³   ³   
+³   ÃÄÄÄcore
+³   ³       browser.py
+³   ³       cache.py
+³   ³       config.py
+³   ³       logging.py
+³   ³       rate_limiter.py
+³   ³       __init__.py
+³   ³       
+³   ÃÄÄÄmodels
+³   ³       __init__.py
+³   ³       
+³   ÃÄÄÄrouters
+³   ³       frontend.py
+³   ³       health.py
+³   ³       scraping.py
+³   ³       settings.py
+³   ³       __init__.py
+³   ³       
+³   ÃÄÄÄschemas
+³   ³       scraping.py
+³   ³       settings.py
+³   ³       __init__.py
+³   ³       
+³   ÃÄÄÄservices
+³   ³       scraping_service.py
+³   ³       settings_service.py
+³   ³       __init__.py
+³   ³       
+³   ÃÄÄÄtests
+³   ³       __init__.py
+³   ³       
+³   ÀÄÄÄutils
+³           __init__.py
+³           
+ÃÄÄÄattached_assets
+³       Pasted-from-flask-import-Flask-request-jsonify-from-selenium-import-webdriver-from-selenium-webdriver-c-1744362583694.txt
+³       
+ÃÄÄÄstatic
+³   ÃÄÄÄcss
+³   ³       custom.css
+³   ³       
+³   ÀÄÄÄjs
+³           script.js
+³           settings.js
+³           
+ÀÄÄÄtemplates
+        index.html
+        settings.html
+        
